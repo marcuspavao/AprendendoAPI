@@ -1,0 +1,10 @@
+.Imagem {
+    -webkit-box-shadow: 0px 0px 50px 30px #ff0000;
+    -moz-box-shadow: 0px 0px 50px 30px #ff0000;
+    box-shadow: 0px 0px 50px 30px #ff0000;
+    width: 70vh;
+    height: 70vh;
+}
+.divimg{
+    padding-top: 7%
+}
