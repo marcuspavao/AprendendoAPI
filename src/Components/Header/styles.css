@@ -1,0 +1,54 @@
+.header{
+    background-color: #190F2E;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 7vh;
+    border-bottom-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    padding: 2vh;
+}
+img{
+    
+    height: 5vh;
+    width: 5vh;
+    background-color: white;
+    margin-right: 3vh;
+    border-radius: 10%;
+}
+
+.dropdown-menu{
+    display: flex;
+    right: 0 ;
+    font-size: 3vmin;
+    margin-top:-1.2vmin;
+    align-items: flex-end;
+    border-radius: 1px;
+    padding: 0;
+    flex-direction: column;
+    background-color: #190F2E;
+    width: fit-content;
+    height: fit-content;
+    z-index: 1;
+}
+.drop-content{
+    border-radius: 4px;
+    display: none;
+    border: 1px solid white;
+    padding: 1vmax;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #190F2E;
+    width: 14vmax;
+    z-index: 1;
+    box-shadow: 1px 3px 3px #190F2E;
+}
+
+
+.dropdown-menu:hover .drop-content{
+    display: flex;    
+}

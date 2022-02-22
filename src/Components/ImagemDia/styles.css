@@ -1,10 +1,33 @@
 .Imagem {
-    -webkit-box-shadow: 0px 0px 50px 30px #ff0000;
-    -moz-box-shadow: 0px 0px 50px 30px #ff0000;
-    box-shadow: 0px 0px 50px 30px #ff0000;
+    -webkit-box-shadow: 0px 0px 20px 10px #121923;
+    -moz-box-shadow: 0px 0px 20px 10px #121923;
+    box-shadow: 0px 0px 20px 10px #121923;
     width: 70vh;
     height: 70vh;
+    border-radius: 5%;
+    filter: contrast(1.5) brightness(1);
 }
 .divimg{
-    padding-top: 7%
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1%;
+    align-items: center;
+    width: 100vh;
+}
+p{
+    display: flex;}
+#text{
+    text-align: justify;
+    margin-top:5vh;
+    color: #DDFFF7;
+    text-indent: 1rem;
+    word-break: normal;
+    word-wrap: break-word;
+    text-shadow: 1px white
+    
+}
+#text1{
+    font-size: larger;
+    color: #DDFFF7
 }

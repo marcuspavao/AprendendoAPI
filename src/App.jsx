@@ -1,20 +1,11 @@
-import SearchButton from './Components/SearchButton';
 import './App.css';
-import ImagemDia from './Components/ImagemDia';
-import React,{useState} from 'react';
-
-
+import AppRoutes from './routes';
+import {Provider} from 'react-redux'
+import { store } from './store';
 
 function App() {
-
-  const [count, setCount] = useState(0);
-
-   return (
-    <div className="App">
-      <SearchButton count={count} setCount={setCount}/>
-      <ImagemDia show={count}/>
-    </div>
-  )
+  return (
+    <AppRoutes />
+  );
 }
-
 export default App;

@@ -1,9 +1,11 @@
 .App {
   display: flex;
+  padding-top: 5%;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background-color: aquamarine;
-  border: aliceblue solid 0px;
-  height:  100vh;
+  color: antiquewhite;
+  background-color: #0A021B;
+  height:  100%;  
+  font-family: sans-serif;
 }

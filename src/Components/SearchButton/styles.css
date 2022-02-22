@@ -1,5 +1,6 @@
 
 .botao {
+    margin-top: 1%;
     font-size:15px;
     font-family:Arial;
     width:140px;
@@ -19,5 +20,6 @@
   
   .botao:hover {
     background: linear-gradient(#f6f6f6, #ffffff);
+    border: 2px solid lightblue;
   }
                 

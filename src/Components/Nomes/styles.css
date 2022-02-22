@@ -1,0 +1,22 @@
+.lista{
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+}
+.button{
+    display: block;
+}
+.button:hover .lista{
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 1vmax;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #190F2E;
+    width: 14vmax;
+    z-index: 1;
+    box-shadow: 1px 3px 3px #190F2E;
+}
